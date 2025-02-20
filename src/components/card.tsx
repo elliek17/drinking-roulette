@@ -3,7 +3,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = ({category , question}) => {
+interface Props {
+  category: string
+  question: string
+}
+const Card: React.FC<Props> = ({category , question}) => {
   return (
     <StyledWrapper>
       <div className="card">
