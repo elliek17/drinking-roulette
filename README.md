@@ -9,7 +9,7 @@ The goal is to develop a website to be used for entertainment.
 
 Users, gathered with their friends and some drinks, Spin the wheel so they can get a question. They can either follow the instructions, or take a shot.
 
-Will update with the demo once deployed
+Check out the [Demo](https://drinking-roulette.vercel.app/)!
 
 
 ## Needed Credits
