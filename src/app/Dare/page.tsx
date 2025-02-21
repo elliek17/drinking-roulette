@@ -1,7 +1,6 @@
 import Card from "@/components/card";
 import Button from "@/components/button"
 import { promises as fs } from 'fs';
-export const fetchCache = 'force-no-store'
 
 export default async function Home() {
   const file = await fs.readFile(process.cwd() + '/src/data/questions.json', 'utf8');
