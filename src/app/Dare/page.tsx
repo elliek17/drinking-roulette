@@ -2,10 +2,6 @@ import Card from "@/components/card";
 import Button from "@/components/button"
 import { promises as fs } from 'fs';
 
-export const revalidate = 60
-
-export const dynamicParams = true
-
 export default async function Home() {
   const file = await fs.readFile(process.cwd() + '/src/data/dare.json', 'utf8');
   const data = JSON.parse(file);
