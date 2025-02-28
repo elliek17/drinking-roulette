@@ -65,5 +65,13 @@ const StyledWrapper = styled.div`
     justify-content: center;
     font-size: 24px;
     transform: rotateY(180deg);
-  }`;
+  }
+  @media (width<40rem){
+    .card {
+      width: 250px;
+      height: 200px;
+      perspective: 1000px;
+    }
+  }
+`;
 export default Card;

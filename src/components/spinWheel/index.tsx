@@ -46,7 +46,7 @@ export const SpinWheel = ({
   items = demoOptionData,
   spinActionName = "spin",
   resetActionName = "spin",
-  size = 400,
+  size = 300,
   spinTime = 3000,
   onResult,
   onFinishSpin,

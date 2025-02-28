@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 20px auto;
+  margin: 20px 0 auto;
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 50%;
@@ -97,4 +97,16 @@
 a {
   text-decoration: underline;
   color: blue;
+}
+@media (width<40rem){
+  .spin-container {
+    margin: 0;
+    box-sizing: content-box;
+    position: absolute;
+  }
+  .spin-container .spin-wheel{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 0;
+  }
 }

@@ -35,8 +35,16 @@ const Button = () => {
 }
 
 const StyledWrapper = styled.div`
+  @media (width<40rem){
+    .button {
+      margin-top:0;
+      margin-bottom:5rem;
+      margin-left:1.5rem;
+    }
+  }
   .button {
     margin-top:0;
+    margin-bottom:5rem;
   }
     
   .first {

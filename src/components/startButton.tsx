@@ -25,7 +25,8 @@ const StyledWrapper = styled.div`
   .cta {
     position: relative;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
     padding: 12px 18px;
     transition: all 0.2s ease;
     border: none;
@@ -79,4 +80,10 @@ const StyledWrapper = styled.div`
 
   .cta:active {
     transform: scale(0.95);
+  }
+  @media (width<40rem){
+    .cta {
+      margin-top: 12rem;
+      margin-left: 8rem;
+    }
   }`;

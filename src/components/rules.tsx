@@ -25,6 +25,7 @@ const StyledWrapper = styled.div`
   .container {
     display: block;
     width: 360px;
+    margin-top:0;
   }
 
   .container > * {
@@ -48,6 +49,16 @@ const StyledWrapper = styled.div`
   .card2 {
     width: 320px;
     margin: -10px 0px 0px 10px;
+  }
+  @media (width<40rem){
+    .container {
+      width: 300px;
+      margin:5rem 2rem;
+    }
+    .container > * {
+      width: 250px;
+      height: 150px;
+    }
   }`;
 
 export default Card;
